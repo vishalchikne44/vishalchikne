@@ -61,7 +61,7 @@ header{width: calc(100% - 6rem); margin: auto; left: 0; right: 0; padding: 2rem 
 .projects .img-wrap {filter: grayscale(0.5); overflow: hidden;}
 .projects .img-wrap.top-bottom {transform: rotateX(-180deg);}
 .projects .img-wrap.left-right {transform: rotateY(-180deg);}
-.projects .img-wrap img {opacity: 0}
+.projects .img-wrap img {opacity: 0; padding-right: 10px}
 .projects .img-wrap:hover {filter: grayscale(0); }
 .projects .col-wrap-2 .wrapper {flex: 0 0 50%; margin-bottom: 2rem;margin-left: 0;overflow: hidden;}
 /*.projects .col-wrap-2 .wrapper:nth-child(odd) {margin-left: auto;margin-right: 0; }*/
